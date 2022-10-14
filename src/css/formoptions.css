@@ -1,0 +1,77 @@
+.main{
+    background-color:rgba(243, 236, 236, 0.41);
+    width: 100%;
+     display: flex; 
+    justify-content:space-around; 
+    align-items: center;
+    border: 1px solid rgba(247, 241, 241, 0.815), 0.798;
+    margin-bottom: 10px;
+    padding: 30px 40px;
+  
+}
+
+.options{
+    border: 2px solid transparent;
+    background-color: #dcdcdcf0;
+    padding: 40px 70px ;
+}
+
+.btnLink{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid black;
+    /* height: 70vh; */
+    width: 40vw; 
+    background-color: white;
+
+}
+
+.links{
+    margin: 50px 20px;
+}
+
+
+/* Qrcode section styling */
+
+.qrcode{
+    /* background-color:rgba(243, 236, 236, 0.41); */
+     border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 25px 40px;   
+    background-color: white;
+}
+
+.qrcodeimg img{
+    width: 20vw ;
+    height: 50vh;
+}
+
+.qrcodeoptions {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    
+}
+
+.downloadoptions{
+    display: flex;
+    justify-content: space-around;
+}
+
+.qrcodeoptions button{
+    margin: 5px;
+    background-color: rgba(111, 111, 111, 0.41);
+    color: white;
+    font-weight: bold;
+    height: 40px;
+}
+
+.downloadoptions button{
+    background-color: rgba(111, 111, 111, 0.41);
+    color: white;
+    width: 130px;
+    height: 60px;
+    font-weight: bold;
+
+}
